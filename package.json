@@ -27,8 +27,14 @@
     "url": "https://ehsan.js.org"
   },
   "exports": {
-    "import": "./dist/esm/index.js",
-    "require": "./dist/cjs/index.cjs"
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.cjs"
+    },
+    "./dist/cjs/Authenticator": {
+      "import": "./dist/esm/Authenticator/index.js",
+      "require": "./dist/cjs/Authenticator/index.cjs"
+    }
   },
   "files": [
     "dist",
