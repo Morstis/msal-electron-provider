@@ -29,11 +29,11 @@
   "exports": {
     ".": {
       "import": "./dist/esm/index.js",
-      "require": "./dist/cjs/index.cjs"
+      "require": "./dist/cjs/index.js"
     },
     "./dist/cjs/Authenticator": {
       "import": "./dist/esm/Authenticator/index.js",
-      "require": "./dist/cjs/Authenticator/index.cjs"
+      "require": "./dist/cjs/Authenticator/index.js"
     }
   },
   "files": [
